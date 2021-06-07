@@ -7,11 +7,6 @@ An object recognition project deployed on a raspberry Pi4 with PiCamera. Using t
 # Purpose and goal
 Goal is to develope an mobile (embedded) unit for outdoor use to detect, monitor wild life and document wild life.
 
-# Resources
-Raspberry Pi4
-PiCamera
-Amazon AWS-RDS (Relational Database Service)
-
 
 # Requirements
 Raspberry Pi4 / OS Debian + other dependencies
