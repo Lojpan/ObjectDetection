@@ -21,11 +21,11 @@ class Database:
     #while(!db.connect)  while not connected, keep trying...
         print("connecting to database...")
         try :
-            db.connect(user="lojpan",
-                        password="L0jpan1.",
-                        host="mydatabase.c3mtrqj0btdn.us-east-1.rds.amazonaws.com",
-                        port="3306",
-                        database="Object Detection")
+            db.connect(user="<USER>",
+                        password="<PW>",
+                        host="<DATABASE_ENDPOINT>",
+                        port="<PORT>",
+                        database="<DB_NAME>")
 
         except mysql.connector.Error as err:
             if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
